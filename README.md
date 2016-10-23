@@ -16,6 +16,6 @@
 
 `$ electron .`
 
-## Screenshot
+## Screenshort
 
 ![alt text](./screenshort/ss.png)

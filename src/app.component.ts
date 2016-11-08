@@ -2,7 +2,6 @@ declare var System;
 
 import { Component, OnInit } from '@angular/core';
 
-
 let remote = System._nodeRequire('electron').remote;
 let _crypto = System._nodeRequire('crypto')
 let moment = System._nodeRequire('moment')
@@ -13,7 +12,6 @@ let moment = System._nodeRequire('moment')
   templateUrl: './dist/app.component.html'
 })
 export class AppComponent implements OnInit { 
-
 
   constructor() {
     console.log('Moment: ', moment().format('YYYY-MM-DD'))

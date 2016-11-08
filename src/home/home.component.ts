@@ -7,7 +7,7 @@ import { UserService } from '../providers/users.service'
 
 @Component({
   selector: 'home-component',
-  templateUrl: './templates/home.component.html'
+  templateUrl: './dist/home/home.component.html'
 })
 export class HomeComponent implements OnInit {
   public users: Array<IUsers>

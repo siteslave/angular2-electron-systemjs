@@ -10,7 +10,7 @@ let moment = System._nodeRequire('moment')
 
 @Component({
   selector: 'my-app',
-  templateUrl: './templates/app.component.html'
+  templateUrl: './dist/app.component.html'
 })
 export class AppComponent implements OnInit { 
 

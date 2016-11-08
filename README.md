@@ -12,10 +12,6 @@
 
 ## Running
 
-`$ npm start`
+`$ gulp`
 
 `$ electron .`
-
-## Screenshort
-
-![alt text](./screenshort/ss.png)

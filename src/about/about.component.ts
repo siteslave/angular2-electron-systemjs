@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  moduleId: module.id,
   selector: 'about-app',
-  templateUrl: '../../templates/about.component.html'
+  templateUrl: './dist/about/about.component.html',
+  styleUrls: ['./dist/about/about.component.css']
 })
 export class AboutComponent implements OnInit {
   constructor() { }

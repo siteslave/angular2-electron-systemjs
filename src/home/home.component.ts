@@ -23,4 +23,8 @@ export class HomeComponent implements OnInit {
       });
   }
 
+  ngAfterViewInit() {
+    $('.dropdown').dropdown();
+  }  
+
 }

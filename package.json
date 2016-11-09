@@ -4,8 +4,7 @@
   "description": "",
   "main": "electron-app.js",
   "scripts": {
-    "start": "gulp",
-    "postinstall": "typings install"
+    "start": "gulp"
   },
   "licenses": [
     {
@@ -25,21 +24,25 @@
     "@angular/upgrade": "^2.1.2",
     "angular-in-memory-web-api": "^0.1.14",
     "core-js": "^2.4.1",
+    "lodash": "^4.16.6",
     "moment": "^2.15.2",
     "reflect-metadata": "^0.1.8",
-    "rxjs": "^5.0.0-beta.12",
+    "rxjs": "5.0.0-beta.12",
     "semantic-ui-css": "^2.2.4",
     "systemjs": "^0.19.39",
     "zone.js": "^0.6.26"
   },
   "devDependencies": {
+    "@types/core-js": "^0.9.34",
+    "@types/jquery": "^2.0.34",
+    "@types/lodash": "^4.14.38",
+    "@types/node": "^6.0.46",
     "del": "^2.2.2",
     "gulp": "^3.9.1",
     "gulp-sass": "^2.3.2",
     "gulp-typescript": "^3.1.2",
     "gulp-watch": "^4.3.10",
-    "typescript": "^2.0.3",
-    "typings": "^1.4.0"
+    "typescript": "^2.0.3"
   },
   "keywords": [],
   "author": "",
